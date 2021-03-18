@@ -656,11 +656,11 @@
                       <div class="form-group mb-20">
                         <div class="styled-select mt-0">
                           <select id="person_select" name="person_select" class="form-control" required>
-                            <option value="">Courses</option>
+                            <option value="">Department</option>
                             <option value="1 Person">Software Engineering</option>
-                            <option value="2 Person">Computer Traning</option>
-                            <option value="3 Person">Development Studies</option>
-                            <option value="Family Pack">Chemical Engineering</option>
+                            <option value="2 Person">Information Technology</option>
+                            <option value="3 Person">Telecommunication</option>
+                            <option value="Family Pack">Electronics</option>
                           </select>
                         </div>
                       </div>
@@ -804,12 +804,7 @@
                     <h6 class="mt-0 mb-0 text-white">Manager</h6>
                   </div>
                   <p class="p-15 pb-0">Lorem ipsum dolor sit amet cing, consectetur adipisi. Vel consectetur.</p>
-                  <ul class="styled-icons icon-theme-colored icon-circled icon-dark icon-sm mt-15 mb-0">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                  </ul>
+                   <button class="btn hvr-float-shadow bg-theme-colored2"><a href="#" class="mt-0 mb-0 text-white">View Profile</a></button>
                 </div>
               </div>
             </div>
@@ -823,12 +818,7 @@
                     <h6 class="mt-0 mb-0 text-white">Manager</h6>
                   </div>
                   <p class="p-15 pb-0">Lorem ipsum dolor sit amet cing, consectetur adipisi. Vel consectetur.</p>
-                  <ul class="styled-icons icon-theme-colored3 icon-circled icon-dark icon-sm mt-15 mb-0">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                  </ul>
+                  <button class="btn hvr-float-shadow bg-theme-colored"><a href="#" class="mt-0 mb-0 text-white">View Profile</a></button>
                 </div>
               </div>
             </div>
@@ -842,12 +832,7 @@
                     <h6 class="mt-0 mb-0 text-white">Manager</h6>
                   </div>
                   <p class="p-15 pb-0">Lorem ipsum dolor sit amet cing, consectetur adipisi. Vel consectetur.</p>
-                  <ul class="styled-icons icon-theme-colored icon-circled icon-dark icon-sm mt-15 mb-0">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                  </ul>
+                  <button class="btn hvr-float-shadow bg-theme-colored3"><a href="#" class="mt-0 mb-0 text-white">View Profile</a></button>
                 </div>
               </div>
             </div>
@@ -861,12 +846,7 @@
                     <h6 class="mt-0 mb-0 text-white">Manager</h6>
                   </div>
                   <p class="p-15 pb-0">Lorem ipsum dolor sit amet cing, consectetur adipisi. Vel consectetur.</p>
-                  <ul class="styled-icons icon-theme-colored2 icon-circled icon-dark icon-sm mt-15 mb-0">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                  </ul>
+                  <button class="btn hvr-float-shadow bg-theme-colored"><a href="#" class="mt-0 mb-0 text-white">View Profile</a></button>
                 </div>
               </div>
             </div>
@@ -956,18 +936,14 @@
   <footer id="footer" class="footer bg-black-111">
     <div class="container pt-70 pb-40">
       <div class="row border-bottom-black">
-        <div class="col-sm-12 col-md-12">
-          <div class="widget dark text-center ">
-            <a href="index.html"><img width="" height="" id="logo" src="assets/images/FET-logo.png" alt=""></a>
+        <div class="col-sm-6 col-md-4">
+          <div class="widget dark pull-left ">
+            <a href="index.html"><img width="" height="" id="logo" src="assets/images/FET-logo1.png" alt=""></a>
             <div class="pull-center logoname">
-              <strong style="font-size:30px; color: #ffffff; font-family:Century Gothic">Faculty of Engineering & Technology</strong>
-              <br /><span style="color: #ffffff; font-family:Century Gothic;font-size: 22px;"> University of Sindh, Pakistan</span>
+              <h4 style="color: white">Faculty of Engineering & Technology</h4>
+              <h5 style="color: white"> University of Sindh, Pakistan</h5>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row border-bottom-black">
-        <div class="col-sm-6 col-md-4">
           <div class="widget dark">
             <ul class="list-inline mt-5">
               <li class="m-0 pl-10 pr-10"> <i class="fa fa-map-marker text-theme-color-2 mr-5"></i> <a class="text-gray" href="#">University of sindh jamshoro, pakistan</a> </li>
