@@ -54,12 +54,7 @@
 <script src="assets/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
 <link rel="stylesheet" href="assets/css/style.css">
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+
 </head>
 <body class="">
   <div id="wrapper" class="clearfix">
@@ -106,128 +101,40 @@
           </div>
         </div>
       </div> -->
-      <div class="header-nav header-nav-center">
-        <div class="header-nav-wrapper navbar-scrolltofixed bg-white scroll-to-fixed-fixed">
-          <div class="row">
-            <nav id="menuzord-left " class="menuzord orange no-bg lefter">
-              <a class="logo" href="index.html"><img src="assets/images/FET-logo.png" alt=""></a>
-              <h3>Faculty of Engineering & Technology</h3>
-              <h5>University of Sindh, Pakistan</h5>
-            </nav>
-            <nav id="menuzord-right " class="menuzord orange no-bg righter">
-              <ul class="menuzord-menu">
-                <li ><a href="#home">Home</a>
-
+      <div class="header-nav">
+      <div class="header-nav-wrapper navbar-scrolltofixed bg-white">
+        <div class="container-fuild">
+          <nav id="menuzord-right" class="menuzord orange no-bg">
+            
+           <div class="row">
+            <div class="col-sm-5 col-md-5">
+              <a class="menuzord-brand pull-left flip mb-15" href="index.php" id="logo-size"><img src="assets/images/FET-logo.png" alt=""></a>
+             <h4 id="logo-size1">Faculty of Engineering & Technology</h4>
+              <h5 id="logo-size2">University of Sindh, Pakistan</h5>
+            </div>
+            <div class="col-sm-7 col-md-7">
+            <ul class="menuzord-menu">
+              <li><a href="#home">Home</a>
+                
+              </li>
+             <li><a href="javascripts:void(0)">Programs</a>
                 </li>
-                <li><a href="javascripts:void(0)">Programs</a>
-                  <ul class="dropdown">
-                    <li><a href="#">Bachelor</a>
-                      <ul class="dropdown">
-                        <li><a href="javascripts:void(0)">Software Engineering</a></li>
-                        <li><a href="javascripts:void(0)">Information Technology</a></li>
-                        <li><a href="javascripts:void(0)">Electronics</a></li>
-                        <li><a href="javascripts:void(0)">Telecommunication</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="javascripts:void(0)">Master</a>
-                      <ul class="dropdown">
-                        <li><a href="javascripts:void(0)">ABC</a></li>
-                        <li><a href="javascripts:void(0)">ABC</a></li>
-                        <li><a href="javascripts:void(0)">ABC</a></li>
-                        <li><a href="javascripts:void(0)">XYZ</a></li>
-                        <li><a href="javascripts:void(0)">XYZ</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="javascripts:void(0)">Doctor of philosophy</a>
-                      <ul class="dropdown">
-                        <li><a href="javascripts:void(0)">ABC</a></li>
-                        <li><a href="javascripts:void(0)">ABC</a></li>
-                        <li><a href="javascripts:void(0)">ABC</a></li>
-                        <li><a href="javascripts:void(0)">XYZ</a></li>
-                        <li><a href="javascripts:void(0)">XYZ</a></li>
-                      </ul>
-                    </li>
-                  </ul>
+              <li><a href="javascripts:void(0)">Time Table</a>
+                  
                 </li>
-                <li><a href="javascripts:void(0)">Time Table</a>
-                  <ul class="dropdown">
-                    <li><a href="javascripts:void(0)">Morning</a></li>
-                    <li><a href="javascripts:void(0)">Evening</a></li>
-                  </ul>
-                </li>
-                <li><a href="javascripts:void(0)">FET Faculty</a></li>
-                <li><a href="javascript:void(0)">About Us</a>
-                  <div class="megamenu megamenu-bg-img">
-                    <div class="megamenu-row">
-                      <div class="col4">
-                        <h4 class="megamenu-col-title">Latest News:</h4>
-                        <div class="widget">
-                          <div class="latest-posts">
-                            <article class="post media-post clearfix pb-0 mb-10">
-                              <a href="javascript:void(0)" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                              <div class="post-right">
-                                <h5 class="post-title mt-0 mb-5"><a href="javascript:void(0)">Post Title Here</a></h5>
-                                <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                              </div>
-                            </article>
-                            <article class="post media-post clearfix pb-0 mb-10">
-                              <a href="javascript:void(0)" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                              <div class="post-right">
-                                <h5 class="post-title mt-0 mb-5"><a href="javascript:void(0)">Industrial Coatings</a></h5>
-                                <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                              </div>
-                            </article>
-                            <article class="post media-post clearfix pb-0 mb-10">
-                              <a href="javascript:void(0)" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                              <div class="post-right">
-                                <h5 class="post-title mt-0 mb-5"><a href="javascript:void(0)">Storefront Installations</a></h5>
-                                <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                              </div>
-                            </article>
-                            <article class="post media-post clearfix pb-0 mb-10">
-                              <a href="javascript:void(0)" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                              <div class="post-right">
-                                <h5 class="post-title mt-0 mb-5"><a href="javascript:void(0)">Industrial Coatings</a></h5>
-                                <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                              </div>
-                            </article>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col4">
-                        <h4 class="megamenu-col-title"><strong>Featured News:</strong></h4>
-                        <article class="post clearfix">
-                          <div class="entry-header">
-                            <div class="post-thumb"> <img class="img-responsive" src="assets/images/blog/1.jpg" alt=""> </div>
-                          </div>
-                          <div class="entry-content">
-                            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna et sed aliqua</p>
-                            <a class="btn btn-dark btn-theme-colored" href="javascript:void(0)">Read more..</a> </div>
-                        </article>
-                      </div>
-                      <div class="col4">
-                        <h4 class="megamenu-col-title">Quick Links:</h4>
-                        <ul class="list-dashed list-icon">
-                          <li><a href="#">All Notices</a></li>
-                          <li><a href="#">FET Gallery</a></li>
-                          <li><a href="#">Events Gallery</a></li>
-                          <li><a href="#">FET Faculty</a></li>
-                          <li><a href="#">Job Vacancies</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+               <li><a href="javascripts:void(0)">FET Faculty</a></li>
+              <li><a href="javascript:void(0)">About Us</a>
+                  
                 </li>
                 <li><a href="javascript:void(0)">Final Year Projects</a></li>
-                <li><a href="javascripts:void(0)">Sign In</a>
-                  <ul class="dropdown">
-                    <li><a href="javascripts:void(0)">Student</a></li>
-                    <li><a href="javascripts:void(0)">Teacher</a></li>
-                  </ul>
+                 <li><a href="javascripts:void(0)">Sign In</a>
+                 
                 </li>
-              </ul>
-            </nav>
-          </div>
+            </ul>
+            </div>
+           </div> 
+          </nav>
         </div>
       </div>
+    </div>
     </header>

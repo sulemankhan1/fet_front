@@ -405,6 +405,16 @@ ol {
   margin: 0;
   padding: 0;
 }
+#logo-size{
+  position: relative;
+  margin-left: 50px;
+}
+@media only screen and (max-width: 980px) {
+  #logo-size{
+    position: relative;
+    margin-left: 10px;
+  }
+}
 .fluid-video-wrapper {
   padding: 0;
   position: relative;
