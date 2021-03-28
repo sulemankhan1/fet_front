@@ -421,7 +421,7 @@
           <div class="row">
             <div class="col-sm-7 col-md-8">
               <h2 class="mt-0 line-height-1 line-bottom-edu">Welcome to <span class="text-theme-colored3">Faculty of Engineering & Technology</span></h2>
-              <p class="lead mb-10">About</p>
+              <h4 >About</h4>
               <p>Faculty of Engineering and Technology is composed of an Institute and six departments: Prof. A. H. S. Bukhari Institute of Information and Communication Technology, Department of Electronics Engineering, Department of Telecommunication Engineering, Department of Information Technology, Department of Software Engineering, Department of Telemedicine and e-Health and Department of Industrial Electronics Engineering. A. H. S Bukhari Institute of Information and Communication Technology is an independent post-graduate institute offering MS/MPhil programs in disciplines of Electronics, Telecommunications, Information Technology and Software Engineering, and PhD degree program in Information Technology. Currently, over 300 students are enrolled in all MS/ MPhil and PhD programs.</p>
               <div class="row sm-text-center">
                 <div class="col-sm-6 col-md-6">
@@ -431,7 +431,7 @@
                   <div class="mb-15">
                     <h4 class="font-raleway font-weight-700 mt-15"><a href="#">Graduate <span class="text-theme-colored3">Education</span></a></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quas, quidem totam, fuga iste et voluptatem tempora molestiae.</p>
-                    <a class="btn btn-colored btn-sm btn-circled btn-theme-colored mt-5" href="page-about1.html">Read more</a>
+                    <a class="btn btn-colored btn-sm btn-circled btn-theme-colored mt-5" href="javascript:void(0)">Read more</a>
                   </div>
                 </div>
                 <div class=" col-sm-6 col-md-6">
@@ -441,7 +441,7 @@
                   <div class="mb-15">
                     <h4 class="font-raleway font-weight-700 mt-15"><a href="#">Master's <span class="text-theme-colored3">Degree</span></a></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quas, quidem totam, fuga iste et voluptatem tempora molestiae.</p>
-                    <a class="btn btn-colored btn-sm btn-circled btn-theme-colored mt-5" href="page-about1.html">Read more</a>
+                    <a class="btn btn-colored btn-sm btn-circled btn-theme-colored mt-5" href="javascript:void(0)">Read more</a>
                   </div>
                 </div>
               </div>
@@ -562,7 +562,7 @@
                   </div>
                 </div>
               </div>
-              <a class="btn btn-colored btn-sm btn-circled btn-theme-colored mt-40 ml-0" href="page-about1.html">View all</a>
+              <a class="btn btn-colored btn-sm btn-circled btn-theme-colored mt-40 ml-0" href="javascript:void(0)">View all</a>
             </div>
           </div>
         </div>
@@ -577,7 +577,7 @@
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8">
               <h2 class="line-bottom-edu">Our Admission <span class="text-theme-colored3">Quary</span></h2>
-              <p class="mb-20">We care for children, protect their welfare, and prepare them for the future are the most important issues we face during our lifetime.</p>
+              <p class="mb-20">We care for students, protect their welfare, and prepare them for the future to have a bright future and to achieve their goals of life.</p>
               <div class="row mb-30">
                 <div class="col-sm-6 col-md-6">
                   <div class="info border-1px">
@@ -724,7 +724,7 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <h2 class="text-white text-center line-height-1 mt-0">Our Success</h2>
-              <p class="text-white-f2 text-center">Lorem ipsum dolor simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+              <p class="text-white-f2 text-center">Our Faculty Of Enigneering and Technology is awarded with 189 awards with having highly qualified faculty member and we have 280 courses in FET which are underneath these skilled and highly qualified teachers</p>
             </div>
           </div>
         </div>
@@ -788,7 +788,7 @@
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
               <h2 class="mt-0 line-height-1">Faculty <span class="text-theme-colored3">Members</span></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Acque quidem eaque, amet doloribus, error inventore, quisquam totam magni cumque.</p>
+              <p>Our highly qualified , skilled faculty members.</p>
             </div>
           </div>
         </div>
@@ -804,7 +804,7 @@
                     <h6 class="mt-0 mb-0 text-white">Manager</h6>
                   </div>
                   <p class="p-15 pb-0">Lorem ipsum dolor sit amet cing, consectetur adipisi. Vel consectetur.</p>
-                   <button class="btn hvr-float-shadow bg-theme-colored2"><a href="#" class="mt-0 mb-0 text-white">View Profile</a></button>
+                   <button class="btn hvr-float-shadow bg-theme-colored2"><a href="profile.php" class="mt-0 mb-0 text-white">View Profile</a></button>
                 </div>
               </div>
             </div>
@@ -818,7 +818,7 @@
                     <h6 class="mt-0 mb-0 text-white">Manager</h6>
                   </div>
                   <p class="p-15 pb-0">Lorem ipsum dolor sit amet cing, consectetur adipisi. Vel consectetur.</p>
-                  <button class="btn hvr-float-shadow bg-theme-colored"><a href="#" class="mt-0 mb-0 text-white">View Profile</a></button>
+                  <button class="btn hvr-float-shadow bg-theme-colored"><a href="profile.php" class="mt-0 mb-0 text-white">View Profile</a></button>
                 </div>
               </div>
             </div>
@@ -832,7 +832,7 @@
                     <h6 class="mt-0 mb-0 text-white">Manager</h6>
                   </div>
                   <p class="p-15 pb-0">Lorem ipsum dolor sit amet cing, consectetur adipisi. Vel consectetur.</p>
-                  <button class="btn hvr-float-shadow bg-theme-colored3"><a href="#" class="mt-0 mb-0 text-white">View Profile</a></button>
+                  <button class="btn hvr-float-shadow bg-theme-colored3"><a href="profile.php" class="mt-0 mb-0 text-white">View Profile</a></button>
                 </div>
               </div>
             </div>
@@ -846,7 +846,7 @@
                     <h6 class="mt-0 mb-0 text-white">Manager</h6>
                   </div>
                   <p class="p-15 pb-0">Lorem ipsum dolor sit amet cing, consectetur adipisi. Vel consectetur.</p>
-                  <button class="btn hvr-float-shadow bg-theme-colored"><a href="#" class="mt-0 mb-0 text-white">View Profile</a></button>
+                  <button class="btn hvr-float-shadow bg-theme-colored"><a href="profile.php" class="mt-0 mb-0 text-white">View Profile</a></button>
                 </div>
               </div>
             </div>
@@ -857,6 +857,49 @@
 
     <!-- Divider: -->
 
+     <section class="divider parallax layer-overlay overlay-dark-8 text-center" data-bg-img="assets/images/bg/01.jpg" data-parallax-ratio="0.7">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">            
+            <h2 class="mt-0 text-white">Unlimited Support &amp; Easily Stay Connected</h2>
+            <h4 class="text-white">Subscribe to get each notification of FET</h4> 
+            
+            <!-- Mailchimp Subscription Form-->
+            <form id="mailchimp-subscription-form3" class="newsletter-form mt-30">
+              <label for="mce-EMAIL"></label>
+              <div class="input-group">
+                <input type="email" id="mce-EMAIL" data-height="50px" class="form-control input-lg" placeholder="Your Email" name="EMAIL" value="">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-colored btn-theme-colored btn-lg m-0" data-height="50px"><i class="far fa-paper-plane font-20" aria-hidden="true"></i>
+                  </button>
+                </span>
+              </div>
+            </form>            
+
+            <!-- Mailchimp Subscription Form Validation-->
+            <script>
+              $('#mailchimp-subscription-form3').ajaxChimp({
+                  callback: mailChimpCallBack,
+                  url: '//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e'
+              });
+
+              function mailChimpCallBack(resp) {
+                  // Hide any previous response text
+                  var $mailchimpform = $('#mailchimp-subscription-form3'),
+                      $response = '';
+                  $mailchimpform.children(".alert").remove();
+                  if (resp.result === 'success') {
+                      $response = '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
+                  } else if (resp.result === 'error') {
+                      $response = '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
+                  }
+                  $mailchimpform.prepend($response);
+              }
+            </script>           
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Section: blog -->
     <section id="blog">
@@ -931,87 +974,6 @@
     </section>
   </div>
   <!-- end main-content -->
-
-  <!-- Footer -->
-  <footer id="footer" class="footer bg-black-111">
-    <div class="container pt-70 pb-40">
-      <div class="row border-bottom-black">
-        <div class="col-sm-6 col-md-4">
-          <div class="widget dark pull-left ">
-            <a href="index.html"><img width="" height="" id="logo" src="assets/images/FET-logo1.png" alt=""></a>
-            <div class="pull-center logoname">
-              <h4 style="color: white">Faculty of Engineering & Technology</h4>
-              <h5 style="color: white"> University of Sindh, Pakistan</h5>
-            </div>
-          </div>
-          <div class="widget dark">
-            <ul class="list-inline mt-5">
-              <li class="m-0 pl-10 pr-10"> <i class="fa fa-map-marker text-theme-color-2 mr-5"></i> <a class="text-gray" href="#">University of sindh jamshoro, pakistan</a> </li>
-              <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-color-2 mr-5"></i> <a class="text-gray" href="#">+92-(0)22-9213181-90</a> </li>
-              <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-theme-color-2 mr-5"></i> <a class="text-gray" href="mailto:info@iict.usindh.edu.pk">info@iict.usindh.edu.pk</a> </li>
-            </ul>
-          </div>
-          <div class="widget dark">
-            <h5 class="widget-title mb-10">Connect With Us</h5>
-            <ul class="styled-icons icon-dark mt-20">
-              <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".1s" data-wow-offset="10"><a href="#" data-bg-color="#3B5998"><i class="fa fa-facebook"></i></a></li>
-              <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s" data-wow-offset="10"><a href="#" data-bg-color="#02B0E8"><i class="fa fa-twitter"></i></a></li>
-              <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".3s" data-wow-offset="10"><a href="#" data-bg-color="#05A7E3"><i class="fa fa-skype"></i></a></li>
-              <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".4s" data-wow-offset="10"><a href="#" data-bg-color="#A11312"><i class="fa fa-google-plus"></i></a></li>
-              <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".5s" data-wow-offset="10"><a href="#" data-bg-color="#C22E2A"><i class="fa fa-youtube"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="widget dark">
-            <h5 class="widget-title line-bottom">Latest News</h5>
-            <div class="latest-posts">
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Sustainable Construction</a></h5>
-                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                </div>
-              </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Industrial Coatings</a></h5>
-                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                </div>
-              </article>
-              <article class="post media-post clearfix pb-0 mb-10">
-                <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Storefront Installations</a></h5>
-                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="widget dark">
-            <h5 class="widget-title">Useful Links</h5>
-            <ul class="list-border">
-              <li><a href="shortcode-sitemap.html">FAQ</a></li>
-              <li><a href="shortcode-sitemap.html">Sitemap</a></li>
-              <li><a href="page-contact1.html">Policy</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom bg-black-222">
-      <div class="container pt-10 pb-0">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <p class="font-14 text-black-777 m-0 mb-10">2021 &copy; All Rights Reserved, Faculty of Engineering and Technology, University Of Sindh, Jamshoro</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>b
   <a class="scrollToTop" href="#"><i class="fa fa-angle-double-up"></i></a>
 </div>
 

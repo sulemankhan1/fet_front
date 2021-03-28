@@ -415,6 +415,10 @@ ol {
     margin-left: 10px;
   }
 }
+#map_btm{
+  position: relative;
+  margin-bottom: -5px;
+}
 .fluid-video-wrapper {
   padding: 0;
   position: relative;

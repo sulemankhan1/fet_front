@@ -81,7 +81,7 @@
             <div class="col-md-6">
               <div class="widget">
                 <ul class="list-inline pull-right flip sm-pull-none sm-text-center list-bordered">
-                  <li class="bg-theme-colored text-white mb-xs-5"><i class="fa fa-phone"></i> Call Us at <a class="text-white" href="#">+92-(0)22-9213181-90</a></li>
+                  <li class="bg-theme-colored text-white mb-xs-5"><i class="fa fa-phone"></i><a class="text-white" href="contact.php"> Contact Us </a></li>
                   <li class="bg-theme-colored3 text-white mb-xs-5"><i class="fa fa-envelope-o"></i> <a class="text-white" href="mailto:bisalbhatti4@gmail.com">info@iict.usindh.edu.pk</a></li>
                 </ul>
               </div>
@@ -114,11 +114,74 @@
             </div>
             <div class="col-sm-7 col-md-7">
             <ul class="menuzord-menu">
-              <li><a href="#home">Home</a>
+              <li><a href="index.php">Home</a>
                 
               </li>
              <li><a href="javascripts:void(0)">Programs</a>
-                </li>
+                <div class="megamenu megamenu-bg-img">
+                  <div class="megamenu-row">
+                    <div class="col3">
+                      <h4 class="megamenu-col-title">Latest News:</h4>
+                      <div class="widget">
+                        <div class="latest-posts">
+                          <article class="post media-post clearfix pb-0 mb-10">
+                            <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                            <div class="post-right">
+                              <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Post Title Here</a></h5>
+                              <p class="post-date mb-0 font-12">Mar 08, 2015</p>
+                            </div>
+                          </article>
+                          <article class="post media-post clearfix pb-0 mb-10">
+                            <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                            <div class="post-right">
+                              <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Industrial Coatings</a></h5>
+                              <p class="post-date mb-0 font-12">Mar 08, 2015</p>
+                            </div>
+                          </article>
+                          <article class="post media-post clearfix pb-0 mb-10">
+                            <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                            <div class="post-right">
+                              <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Storefront Installations</a></h5>
+                              <p class="post-date mb-0 font-12">Mar 08, 2015</p>
+                            </div>
+                          </article>
+                          <article class="post media-post clearfix pb-0 mb-10">
+                            <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                            <div class="post-right">
+                              <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Industrial Coatings</a></h5>
+                              <p class="post-date mb-0 font-12">Mar 08, 2015</p>
+                            </div>
+                          </article>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col3">
+                      <h4 class="megamenu-col-title"><strong>Featured News:</strong></h4>
+                      <article class="post clearfix">
+                        <div class="entry-header">
+                          <div class="post-thumb"> <img class="img-responsive" src="images/blog/1.jpg" alt=""> </div>
+                        </div>
+                        <div class="entry-content">
+                          <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna et sed aliqua</p>
+                          <a class="btn btn-dark btn-theme-colored" href="#">read more..</a> </div>
+                      </article>
+                    </div>
+                    <div class="col3">
+                      <h4 class="megamenu-col-title">Promotional Offer:</h4>
+                      <img src="images/megamenu/megamenu-sale-off.jpg" alt="">
+                    </div>
+                    <div class="col3">
+                      <h4 class="megamenu-col-title">Quick Links:</h4>
+                      <ul class="list-dashed list-icon">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Copyright Notice</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
               <li><a href="javascripts:void(0)">Time Table</a>
                   
                 </li>
