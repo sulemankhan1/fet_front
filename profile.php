@@ -13,7 +13,7 @@
             </div>
           </div>
         </div>
-      </div>      
+      </div>
     </section>
 
     <!--Main Profile section NO:01 starts -->

@@ -633,52 +633,52 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
              <div class="p-30 bg-theme-colored mt-xs-30 mt-sm-30">
-                <h3 class="text-white mt-0 mb-10">Get A Free Registration!</h3>
+                <h3 class="text-white mt-0 mb-10">Create Your Account!</h3>
                 <!-- Appilication Form Start-->
                 <form id="reservation_form" name="reservation_form" class="reservation-form mt-20" method="post" action="http://html.kodesolution.live/f/edupoints/v3/demo/includes/reservation.php">
-                  <div class="row">
+                  <div class="row registration_form">
                     <div class="col-sm-12">
                       <div class="form-group mb-20">
-                        <input placeholder="Enter Name" type="text" id="reservation_name" name="reservation_name" required="" class="form-control">
+                        <input type="radio" name="account_type" value="Student" id="ca_student" checked> <label for="ca_student"> Student</label>
+                        <input type="radio" name="account_type" value="Student" id="ca_teacher"> <label for="ca_teacher"> Teacher</label>
+                        <input type="radio" name="account_type" value="Student" id="ca_faculty"> <label for="ca_faculty"> Faculty</label>
+                        <input type="radio" name="account_type" value="Student" id="ca_other"> <label for="ca_other"> Other</label>
                       </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
+                      <div class="form-group mb-20">
+                        <input placeholder="Enter Roll Number" type="text" id="reservation_name" name="reservation_name" required="" class="form-control">
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="form-group mb-20">
+                        <input placeholder="Enter Full Name" type="text" id="reservation_name" name="reservation_name" required="" class="form-control">
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
                       <div class="form-group mb-20">
                         <input placeholder="Email" type="text" id="reservation_email" name="reservation_email" class="form-control" required="">
                       </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                       <div class="form-group mb-20">
-                        <input placeholder="Phone" type="text" id="reservation_phone" name="reservation_phone" class="form-control" required="">
+                        <input placeholder="Password" type="password" id="reservation_name" name="reservation_name" required="" class="form-control">
                       </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                       <div class="form-group mb-20">
-                        <div class="styled-select mt-0">
-                          <select id="person_select" name="person_select" class="form-control" required>
-                            <option value="">Department</option>
-                            <option value="1 Person">Software Engineering</option>
-                            <option value="2 Person">Information Technology</option>
-                            <option value="3 Person">Telecommunication</option>
-                            <option value="Family Pack">Electronics</option>
-                          </select>
-                        </div>
+                        <input placeholder="Confirm Password" type="password" id="reservation_name" name="reservation_name" required="" class="form-control">
                       </div>
                     </div>
-                    <div class="col-sm-6">
+                    <!-- <div class="col-sm-6">
                       <div class="form-group mb-20">
                         <input name="Date" class="form-control required date-picker" type="text" placeholder="Date" aria-required="true">
                       </div>
-                    </div>
-                    <div class="col-sm-12">
-                      <div class="form-group">
-                        <textarea placeholder="Enter Message" rows="3" class="form-control required" name="form_message" id="form_message" aria-required="true"></textarea>
-                      </div>
-                    </div>
+                    </div> -->
                     <div class="col-sm-12">
                       <div class="form-group mb-0 mt-10">
                         <input name="form_botcheck" class="form-control" type="hidden" value="">
-                        <button type="submit" class="btn btn-colored btn-default text-black btn-lg btn-block" data-loading-text="Please wait...">Submit Request</button>
+                        <button type="submit" class="btn btn-colored btn-default text-black btn-lg btn-block" data-loading-text="Please wait...">Create Account</button>
                       </div>
                     </div>
                   </div>
@@ -793,59 +793,83 @@
           </div>
         </div>
         <div class="section-content text-center">
-          <div class="row">
+          <div class="row mb-30">
             <div class="col-sm-6 col-md-3 mb-sm-30">
-              <div class="team-block bg-light pt-10 pb-15">
-                <div class="team-thumb"><img class="img-fullwidth" src="assets/images/team/1.png" alt="">
+              <div class="team-member bg-light pt-10 pb-15">
+                <div class="thumb"><img class="img-fullwidth" src="assets/images/team/1.png" alt="">
                 </div>
                 <div class="info">
                   <div class="pt-10 pb-10 bg-theme-colored2">
                     <h4 class="mt-0 mb-0 text-white">Jone doe</h4>
                     <h6 class="mt-0 mb-0 text-white">Manager</h6>
                   </div>
-                  <p class="p-15 pb-0">Lorem ipsum dolor sit amet cing, consectetur adipisi. Vel consectetur.</p>
-                   <button class="btn hvr-float-shadow bg-theme-colored2"><a href="profile.php" class="mt-0 mb-0 text-white">View Profile</a></button>
+                  <div class="p-15 pb-0">
+                    <p title="Teacher Hours"><i class="icon-hourglass"></i>10:00 AM to 2:00 PM</p>
+                      <span class="subject-tag">English</span>
+                      <span class="subject-tag">English</span>
+                      <span class="subject-tag">English</span>
+                    </p>
+                  </div>
+                  <button class="btn hvr-float-shadow bg-theme-colored2"><a href="profile.php" class="mt-0 mb-0 text-white">View Profile</a></button>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-3 mb-sm-30">
-              <div class="team-block bg-light pt-10 pb-15">
-                <div class="team-thumb"><img class="img-fullwidth" src="assets/images/team/2.png" alt="">
+              <div class="team-member bg-light pt-10 pb-15">
+                <div class="thumb"><img class="img-fullwidth" src="assets/images/team/2.png" alt="">
                 </div>
                 <div class="info">
                   <div class="pt-10 pb-10 bg-theme-colored">
                     <h4 class="mt-0 mb-0 text-white">Jone doe</h4>
                     <h6 class="mt-0 mb-0 text-white">Manager</h6>
                   </div>
-                  <p class="p-15 pb-0">Lorem ipsum dolor sit amet cing, consectetur adipisi. Vel consectetur.</p>
+                  <div class="p-15 pb-0">
+                    <p title="Teacher Hours"><i class="icon-hourglass"></i>10:00 AM to 2:00 PM</p>
+                      <span class="subject-tag">English</span>
+                      <span class="subject-tag">English</span>
+                      <span class="subject-tag">English</span>
+                    </p>
+                  </div>
                   <button class="btn hvr-float-shadow bg-theme-colored"><a href="profile.php" class="mt-0 mb-0 text-white">View Profile</a></button>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-3 mb-sm-30">
-              <div class="team-block bg-light pt-10 pb-15">
-                <div class="team-thumb"><img class="img-fullwidth" src="assets/images/team/3.png" alt="">
+              <div class="team-member bg-light pt-10 pb-15">
+                <div class="thumb"><img class="img-fullwidth" src="assets/images/team/3.png" alt="">
                 </div>
                 <div class="info">
                   <div class="pt-10 pb-10 bg-theme-colored3">
                     <h4 class="mt-0 mb-0 text-white">Jone doe</h4>
                     <h6 class="mt-0 mb-0 text-white">Manager</h6>
                   </div>
-                  <p class="p-15 pb-0">Lorem ipsum dolor sit amet cing, consectetur adipisi. Vel consectetur.</p>
+                  <div class="p-15 pb-0">
+                    <p title="Teacher Hours"><i class="icon-hourglass"></i>10:00 AM to 2:00 PM</p>
+                      <span class="subject-tag">English</span>
+                      <span class="subject-tag">English</span>
+                      <span class="subject-tag">English</span>
+                    </p>
+                  </div>
                   <button class="btn hvr-float-shadow bg-theme-colored3"><a href="profile.php" class="mt-0 mb-0 text-white">View Profile</a></button>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-3 mb-sm-30">
-              <div class="team-block bg-light pt-10 pb-15">
-                <div class="team-thumb"><img class="img-fullwidth" src="assets/images/team/4.png" alt="">
+              <div class="team-member bg-light pt-10 pb-15">
+                <div class="thumb"><img class="img-fullwidth" src="assets/images/team/4.png" alt="">
                 </div>
                 <div class="info">
                   <div class="pt-10 pb-10 bg-theme-colored">
                     <h4 class="mt-0 mb-0 text-white">Jone doe</h4>
                     <h6 class="mt-0 mb-0 text-white">Manager</h6>
                   </div>
-                  <p class="p-15 pb-0">Lorem ipsum dolor sit amet cing, consectetur adipisi. Vel consectetur.</p>
+                  <div class="p-15 pb-0">
+                    <p title="Teacher Hours"><i class="icon-hourglass"></i>10:00 AM to 2:00 PM</p>
+                      <span class="subject-tag">English</span>
+                      <span class="subject-tag">English</span>
+                      <span class="subject-tag">English</span>
+                    </p>
+                  </div>
                   <button class="btn hvr-float-shadow bg-theme-colored"><a href="profile.php" class="mt-0 mb-0 text-white">View Profile</a></button>
                 </div>
               </div>
@@ -857,13 +881,13 @@
 
     <!-- Divider: -->
 
-     <section class="divider parallax layer-overlay overlay-dark-8 text-center" data-bg-img="assets/images/bg/01.jpg" data-parallax-ratio="0.7">
+     <section class="divider parallax layer-overlay overlay-dark-8 text-center" data-bg-img="assets/images/bg/bg5.jpg" data-parallax-ratio="0.7">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-md-offset-3">            
-            <h2 class="mt-0 text-white">Unlimited Support &amp; Easily Stay Connected</h2>
-            <h4 class="text-white">Subscribe to get each notification of FET</h4> 
-            
+          <div class="col-md-6 col-md-offset-3">
+            <h2 class="mt-0 text-white">Enter Your Email &amp; Stay Updated</h2>
+            <h4 class="text-white">You will get Emails for Notifications Circulars Notices etc. You can change emails settings by logging in to your account with same email</h4>
+
             <!-- Mailchimp Subscription Form-->
             <form id="mailchimp-subscription-form3" class="newsletter-form mt-30">
               <label for="mce-EMAIL"></label>
@@ -874,7 +898,7 @@
                   </button>
                 </span>
               </div>
-            </form>            
+            </form>
 
             <!-- Mailchimp Subscription Form Validation-->
             <script>
@@ -895,7 +919,7 @@
                   }
                   $mailchimpform.prepend($response);
               }
-            </script>           
+            </script>
           </div>
         </div>
       </div>

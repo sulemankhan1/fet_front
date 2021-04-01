@@ -33,6 +33,8 @@
 <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
 <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
 <!-- <link href="assets/css/style.css" rel="stylesheet" type="text/css"> -->
+<link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+<link href="assets/fonts/simple-line-icons.css" rel="stylesheet" type="text/css">
 
 <!-- CSS | Theme Color -->
 <link href="assets/css/colors/theme-skin-color-set1.css" rel="stylesheet" type="text/css">
@@ -105,7 +107,7 @@
       <div class="header-nav-wrapper navbar-scrolltofixed bg-white">
         <div class="container-fuild">
           <nav id="menuzord-right" class="menuzord orange no-bg">
-            
+
            <div class="row">
             <div class="col-sm-5 col-md-5">
               <a class="menuzord-brand pull-left flip mb-15" href="index.php" id="logo-size"><img src="assets/images/FET-logo.png" alt=""></a>
@@ -115,7 +117,7 @@
             <div class="col-sm-7 col-md-7">
             <ul class="menuzord-menu">
               <li><a href="index.php">Home</a>
-                
+
               </li>
              <li><a href="javascripts:void(0)">Programs</a>
                 <div class="megamenu megamenu-bg-img">
@@ -182,20 +184,18 @@
                   </div>
                 </div>
               </li>
-              <li><a href="javascripts:void(0)">Time Table</a>
-                  
-                </li>
-               <li><a href="javascripts:void(0)">FET Faculty</a></li>
+              <li><a href="timetable.php">Timetable</a></li>
+               <li><a href="teachers.php">FET Faculty</a></li>
               <li><a href="javascript:void(0)">About Us</a>
-                  
+
                 </li>
                 <li><a href="javascript:void(0)">Final Year Projects</a></li>
                  <li><a href="javascripts:void(0)">Sign In</a>
-                 
+
                 </li>
             </ul>
             </div>
-           </div> 
+           </div>
           </nav>
         </div>
       </div>
